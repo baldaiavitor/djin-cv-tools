@@ -1,8 +1,8 @@
 import numpy as np
 from PIL import ImageFont, ImageDraw, Image
 from enum import IntEnum
-from colors import BasicColors
-from colors import BGRA
+from djin_cv_tools.colors import BasicColors
+from djin_cv_tools.colors import BGRA
 import os
 
 dirname = os.path.dirname(__file__)

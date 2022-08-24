@@ -4,14 +4,14 @@
 git clone --single-branch --branch <lang:tool_version> <this_repo_url>
 
 example:
-git clone --single-branch --branch python:0.0.1 <this_repo_url>
+git clone --single-branch --branch python0.0.1 <this_repo_url>
 
 ```
 ### Usage
 ```python
 import cv2
-import writing
-import colors
+from djin_cv_tools import colors
+from djin_cv_tools import writing
 
 sourceImage = video.cap()
 
@@ -22,8 +22,8 @@ cv2.imshow("White Blank", result)
 
 ```python
 import cv2
-import writing
-import colors
+from djin_cv_tools import colors
+from djin_cv_tools import writing
 
 sourceImage = video.cap()
 
